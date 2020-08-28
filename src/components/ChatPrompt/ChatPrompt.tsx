@@ -2,7 +2,6 @@ import React, {
 	useState,
 	useCallback,
 	ChangeEventHandler,
-	ReactNode,
 	KeyboardEventHandler,
 } from "react";
 import { ReactComponent as Close } from "../../assets/svg/exit.svg";

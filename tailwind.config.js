@@ -5,6 +5,9 @@ module.exports = {
 			inset: {
 				"1/2": "50%",
 			},
+			scale: {
+				"-100": "-1",
+			},
 			width: {
 				"72": "18rem",
 				"84": "21rem",
@@ -15,9 +18,15 @@ module.exports = {
 			},
 			colors: {
 				blue: "#4643D3",
+				peach: {
+					bg: "#FEF2EE",
+					text: "#FE805C",
+				},
 			},
 		},
 	},
-	variants: {},
+	variants: {
+		backgroundColor: ["responsive", "hover", "focus", "active"],
+	},
 	plugins: [],
 };
